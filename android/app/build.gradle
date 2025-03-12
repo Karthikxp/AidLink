@@ -1,0 +1,47 @@
+plugins {
+    id "com.android.application"
+    id "kotlin-android"
+    id "dev.flutter.flutter-gradle-plugin"
+}
+ext {
+    flutterVersionCode = 1 // Set your desired version code here
+    flutterVersionName = "1.0" // Set your desired version name here
+}
+android {
+    compileSdkVersion flutter.compileSdkVersion
+    defaultConfig {
+        minSdkVersion 20
+        applicationId "com.example.aidlinkrev2"
+        targetSdkVersion flutter.targetSdkVersion
+        versionCode flutterVersionCode.toInteger()
+        versionName flutterVersionName
+        namespace "com.example.aidlinkrev2"
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    sourceSets {
+        main.java.srcDirs += 'src/main/kotlin'
+    }
+
+    buildTypes {
+        release {
+            signingConfig signingConfigs.debug
+        }
+    }
+}
+
+flutter {
+    source '../..'
+}
+
+dependencies {
+    // Add your dependencies here if needed
+}
