@@ -1,4 +1,4 @@
-# AidlinkRev2
+# AidLink
 
 AidlinkRev2 is an emergency rescue app prototype developed using Flutter. It integrates Google Maps API to provide location-based services, designed specifically for the Smart India Hackathon 2023.
 
