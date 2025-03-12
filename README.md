@@ -61,7 +61,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-For any inquiries, please contact the project maintainer at [email@example.com](mailto:email@example.com).
+For any inquiries, please contact the project maintainer at [email@example.com](karthik.manikandanmk@gmail.com).
 
 <div style="display: flex; justify-content: center;">
     <div style="display: flex; flex-direction: column; align-items: center;">
